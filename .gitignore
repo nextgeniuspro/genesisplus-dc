@@ -1,3 +1,8 @@
 
 dreamcast-x/disc/disc.cdi
 dreamcast-x/disc/session1.iso
+dreamcast-x/disc/data/games/game.zip
+*.o
+*.elf
+*.bin
+m68k/m68kmake

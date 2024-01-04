@@ -419,12 +419,12 @@ int main(int argc, char *argv[])
 	/* load menu's texture(s) */
 	init_menu();
 
-	// #if defined(CHANKAST)
+	#if defined(CHANKAST)
 		test_exec(SINGLE_GAME_PATH);
-	// #else
-	// 	strcpy(base_path, LIST_DEFAULT_PATH);
-	// 	files_browser();
-	// #endif
+	#else
+		strcpy(base_path, LIST_DEFAULT_PATH);
+		files_browser();
+	#endif
   
 	clear_menu();
 	pvr_shutdown();

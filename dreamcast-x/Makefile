@@ -20,7 +20,7 @@ CDRECORD_DEV = /dev/hdc
 
 all: rm-elf $(TARGET)
 
-# include $(KOS_BASE)/Makefile.rules
+include $(KOS_BASE)/Makefile.rules
 
 KOS_LOCAL_CFLAGS = -Os -I. -I.. -I../cpu -I../sound -I../c68k -I ../m68k -DLSB_FIRST -DALIGN_LONG -DXVDP -DHIGH_RES
 
