@@ -1,11 +1,22 @@
-Genesis Plus DC
+Genesis Plus DC is a Sega Genesis/Megadrive emulator for the Sega Dreamcast console.
+                                                    
+## Building
 
-Sega Genesis/Megadrive emulator for Sega Dreamcast console. 
+To build Genesis Plus DC:
 
-How to build
+```
+cd dreamcast-x
+make all
+``` 
 
-cd dreamcast-x; make all; 
+## Creating CDI
 
-How to make .cdi
+To create a CDI image to run on Dreamcast:
 
-make genplus-x.bin; make 1st_read.bin; make selfboot
+```
+make genplus-x.bin
+make 1st_read.bin 
+make selfboot
+```
+                                                    
+CDI image will be created in the `disc` directory.
