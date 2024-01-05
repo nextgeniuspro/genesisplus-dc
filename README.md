@@ -1,4 +1,9 @@
-Genesis Plus DC is a Sega Genesis/Megadrive emulator for the Sega Dreamcast console.
+# Genesis Plus DC
+Sega Genesis/Megadrive emulator for the Sega Dreamcast console.
+
+## Description
+
+Genesis Plus DC is a Sega Genesis/Megadrive emulator for the Sega Dreamcast console. 
                                                     
 ## Building
 
